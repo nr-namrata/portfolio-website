@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+/****present-area*****/
+
+.present-area{
+    width: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.project-area{
+    width: 100%;
+    position: relative;
+    border: 2px solid #c484a6;
+    padding: 37px 30px 5px;
+    background-color: #6d3962;
+    border-radius: 15px;
+}
+.project-area img{
+    width: 100%;
+    border-radius: 15px;
+    height: 270px;
+    margin-bottom: 20px;
+}
+
+.project-area .btn-area{
+    
+background-color: transparent;
+    
+padding: 0;
+    
+margin-bottom: 10px;
+box-shadow: none;
+}
+
+.project-area .btn-area button{
+
+padding: 12px 25px;
+
+background-color: #dc1485;
+
+border: 2px solid transparent;
+
+border-radius: 15px;
+
+box-shadow: 0px 0px 18px 8px #91004f;
+}
+.project-area .btn-area button:hover{
+    background-color: #de6aa8;
+    box-shadow: 0px 0px 12px #f478bc;
+    transition: 0.8s;
+}
+
+.project-area .btn-area button a{color: #fff;font-weight: 600;letter-spacing: 1px;}

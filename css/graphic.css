@@ -1,0 +1,118 @@
+*{
+	margin:0;
+	padding:0;
+}
+.design-area{
+	width:100%;
+	float:left;
+	position:relative;
+	overflow:hidden;
+	margin-bottom:100px;
+	}
+.design-area .heading-area h1{
+	position:relative;
+}
+.design-area .heading-area h1::after{
+	content:'';
+	position:absolute;
+	border-bottom:1px solid #ddd;
+	width: 10%;
+	bottom: 0;
+}
+.design-area .img-area{
+	margin-bottom:20px;
+}
+.design-area .img-area img{
+	cursor: pointer;
+}
+
+/***logo-area****/
+
+.logo-area{
+	width: 100%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 80px;
+}
+.logo-area .img-area{
+	margin-bottom: 20px;
+}
+.logo-area .img-area img{
+	cursor: pointer;
+}
+.logo-area .heading-area h1{
+	position:relative;
+}
+.logo-area .heading-area h1::after{
+	content:'';
+	position:absolute;
+	border-bottom:1px solid #ddd;
+	width: 10%;
+	bottom: 0;
+}
+
+.graphicOverlay{
+	width: 100%;
+	position: fixed;
+	background-color: black;
+	opacity: 0.5;
+	height: 100%;
+	z-index: 1;
+	display: none;
+}
+.box-img{
+	width: 40%;
+	position: fixed;
+	height: 100%;
+	z-index: 1;
+	left: 30%;
+	/* top: 5%; */
+	transform: scale(0);
+}
+.box-img img{
+	width: 100%;
+	height: 100%;
+	
+	box-shadow: 0px 0px 16px 8px #9e9e9e36;
+	
+}
+.box-img span{
+	color: #867d7d;
+	font-size: 45px;
+	position: absolute;
+	right: 3px;
+	cursor: pointer;
+	top: -15px;
+	filter: drop-shadow(3px 0px 0px #ddd);
+}
+
+
+.logoBox{
+	width: 50%;
+	height: 70%;
+	position: fixed;
+	transform: scale(0);
+	top: 15%;
+	z-index: 1;
+	left: 25%;
+}
+.logoBox img{
+	width: 100%;
+	height: 100%;
+	box-shadow: 0px 0px 16px 8px #9e9e9e36;
+}
+.logoBox span{
+	color: #8d8d8d;
+	font-size: 40px;
+	position: absolute;
+	right: 3px;
+	cursor: pointer;
+	top: -15px;
+}
+.overlayShow{
+	display: block;
+}
+.imgShow{
+	transform: scale(1);
+}
